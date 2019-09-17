@@ -15,7 +15,7 @@ def assign_rooms(speaker_list)
 end
 
 def printer(array)
-  batch_badge_creator(array)
+  batch_badge_creator(array).each {|badge| puts badge}
   array_of_all_assignments = assign_rooms
   array_of_all_assignments.each {|individual_assignement| puts individual_assignement}
 end
