@@ -17,4 +17,5 @@ end
 def printer(array)
   batch_badge_creator
   array_of_all_assignments = assign_rooms
+  
 end
